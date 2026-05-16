@@ -5,6 +5,7 @@ metadata:
   namespace: argocd
 spec:
   project: default
+  path: argocd
   source:
     repoURL: https://github.com/lucasGalo/argocd.git
     path: argocd
